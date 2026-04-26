@@ -6,6 +6,7 @@ This repository contains various machine learning projects and labs for the Appl
 
 - [Titanic Data Exploration](./applied-ml-titanic-data-exploration/) - Data exploration and preprocessing of the Titanic dataset
 - [Linear Regression](./applied-ml-linear-regression/) - Simple and multiple linear regression with scikit-learn using California Housing dataset
+- [Titanic Survival Classification](./titanic_survival_classification/) - Logistic regression classification model to predict Titanic passenger survival
 
 ## Contributing More Projects
 
