@@ -1,35 +1,34 @@
 # Applied Machine Learning
 
-This repository contains various machine learning projects and labs for the Applied Machine Learning course.
+This repository contains multiple machine learning labs and mini-projects for the **Applied Machine Learning** course.
 
 ## Projects
 
-- [Titanic Data Exploration](./applied-ml-titanic-data-exploration/) - Data exploration and preprocessing of the Titanic dataset
-- [Linear Regression](./applied-ml-linear-regression/) - Simple and multiple linear regression with scikit-learn using California Housing dataset
-- [Titanic Survival Classification](./titanic_survival_classification/) - Logistic regression classification model to predict Titanic passenger survival
-
-## Contributing More Projects
-
-I am actively contributing more projects and labs to this repository. Stay tuned for additional machine learning exercises and implementations covering various topics such as:
-
-- Supervised Learning (Classification, Regression)
-- Unsupervised Learning (Clustering, Dimensionality Reduction)
-- Model Evaluation and Optimization
-- Feature Engineering
-- Deep Learning Basics
-- And more...
+- [Applied ML: Titanic Data Exploration](./applied-ml-titanic-data-exploration/) — EDA and preprocessing on the Titanic dataset.
+- [Applied ML: Linear Regression](./applied-ml-linear-regression/) — Simple and multiple linear regression (California Housing).
+- [Titanic Survival Classification](./titanic_survival_classification/) — Logistic regression to predict passenger survival.
+- [Customer Segmentation](./customer_segmentation/) — Customer segmentation workflow (creates `Final_Customer_Segments.csv`).
+- [Movie Rating Prediction](./Moive_Ratind_Predection/) — Movie rating prediction workflow (creates/uses `movie_predictions.csv`).
+- [Stock Price Prediction](./Stock_Price_Prediction/) — Stock price prediction workflow.
 
 ## Getting Started
 
-Each project/subfolder contains its own README with specific instructions and requirements. Navigate to the respective project folder to explore the code and notebooks.
+1. Each project folder contains its own **README.md** with requirements, dataset info, and how to run the notebook.
+2. Open the relevant `*.ipynb` notebook in Jupyter Notebook/JupyterLab and run cells sequentially.
 
-## Requirements
+## Common Requirements
 
-Refer to individual project README files for specific requirements. General requirements may include:
+Typical dependencies across projects:
 
 - Python 3.x
 - Jupyter Notebook or JupyterLab
-- Common ML libraries: pandas, numpy, matplotlib, seaborn, scikit-learn
+- pandas, numpy, matplotlib, seaborn
+- scikit-learn
+
+## Notes
+
+- Data files are kept inside each project folder.
+- Follow the instructions in the project-specific README for expected input/output files.
 
 ## License
 
